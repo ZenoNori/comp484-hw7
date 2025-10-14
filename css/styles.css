@@ -1,0 +1,50 @@
+/* Color Palette
+#2a5626 - Hunter green
+#94b082 - Olivine
+#dda67e - Buff
+#7c3a27 - Burnt umber
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #2a5626;
+    font-family: 'Source Sans 3', Arial, sans-serif;
+}
+h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 50px;
+}
+h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: #94b082;
+}
+
+footer {
+    background: #94b082;
+}
+
+
+/* Work Experience
+------------------------------------*/
+#work {
+    background: #dda67e;
+}
+
+
+/* Education
+------------------------------------*/
+#education {
+    background: #dda67e;
+}
