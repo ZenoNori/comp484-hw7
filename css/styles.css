@@ -7,6 +7,12 @@
 
 /* Global styles 
 ------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     background: #2a5626;
     font-family: 'Source Sans 3', Arial, sans-serif;
@@ -50,16 +56,27 @@ img {
 header {
     background: #94b082;
 }
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
 
 footer {
     background: #94b082;
     text-align: center;
 }
 .profile-img {
-    width: 300px;
+    /* width: 300px; */
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
+    /* float: left; */
+    /* margin-right: 30px; */
 }
 
 /* Work Experience
